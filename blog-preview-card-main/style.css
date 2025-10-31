@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+}
+
+.container {
+  max-width: 36rem;
+  height: 47rem;
+  font-size: 1.6rem;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px hsl(0, 0%, 7%);
+}
+
+.illustration {
+  width: 33rem;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  align-self: center;
+}
+
+button {
+  font-weight: 800;
+  margin-left: 1.5rem;
+  background-color: hsl(47, 88%, 63%);
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: hsl(47, 88%, 63%);
+}
+
+.published {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: hsl(0, 0%, 42%);
+}
+
+.hover {
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0.25rem;
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+}
+
+.hover:active,
+.hover:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.foundations {
+  margin-left: 1.5rem;
+  color: hsl(0, 0%, 42%);
+}
+
+.writer {
+  margin-left: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.avatar {
+  width: 3rem;
+}
+
+.greg {
+  font-weight: 800;
+  align-self: center;
+  color: hsl(0, 0%, 7%);
+}
+
+.attribution {
+  margin-top: 2rem;
+}
